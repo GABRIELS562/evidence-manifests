@@ -1,13 +1,5 @@
-ACTUAL COMPLIANCE SCORES FROM YOUR SYSTEM:
-
-SOX: 78.0% (not 76.8%)
-FDA: 92.0% (correct)
-GMP: 94.0% (correct)
-Evidence blocks: 47 blocks (correct)
-
-ACTUAL AWS COSTS:
-Let me recalculate realistic AWS equivalents for South African market:
-markdown# evidence-manifests
+```markdown
+# evidence-manifests
 
 **Digital Evidence Pipeline - Infrastructure as Code**
 
@@ -40,6 +32,7 @@ This repository contains the complete Infrastructure as Code (IaC) for a forensi
 ## 🔬 **Live Compliance Monitoring**
 
 Real-time compliance scoring from actual infrastructure monitoring:
+
 ```json
 {
   "current_compliance": {
@@ -52,38 +45,50 @@ Real-time compliance scoring from actual infrastructure monitoring:
   "pharma_violations": 0,
   "audit_trail_integrity": "100%"
 }
-💰 Cost Analysis (ZAR)
-ComponentCurrent (Home Lab)AWS EquivalentAnnual SavingsK3s ClusterR0R30,000R30,000Monitoring StackR0R18,000R18,000Forensic EngineR0R4,800R4,800TotalR0R52,800R52,800
-🎯 Key Differentiators
-Forensic Heritage
+```
 
-Chain of Custody: Every deployment tracked with immutable audit trail
-Evidence Integrity: Cryptographic verification of all system changes
-Compliance Automation: Real-time scoring against FDA, SOX, GMP standards
-Laboratory Workflows: Purpose-built LIMS with forensic-grade data handling
+## 💰 **Cost Analysis (ZAR)**
 
-Technical Excellence
+| Component | Current (Home Lab) | AWS Equivalent | Annual Savings |
+|-----------|-------------------|----------------|----------------|
+| K3s Cluster | R0 | R30,000 | R30,000 |
+| Monitoring Stack | R0 | R18,000 | R18,000 |
+| Forensic Engine | R0 | R4,800 | R4,800 |
+| **Total** | **R0** | **R52,800** | **R52,800** |
 
-Live Infrastructure: All systems accessible and running 24/7
-Hybrid Architecture: On-premise efficiency with cloud forensic engine
-GitOps Deployment: ArgoCD for declarative infrastructure management
-Multi-Environment: Dev/Staging/Production separation
+## 🎯 **Key Differentiators**
 
-🚀 Technologies Used
-Infrastructure: Kubernetes (K3s), Docker, Terraform, AWS EC2
-Monitoring: Prometheus, Grafana, Loki, AlertManager
-CI/CD: Jenkins, ArgoCD, GitHub Actions
-Networking: Tailscale mesh, Cloudflare tunnels
-Compliance: Custom forensic analysis engine
-🔐 Security & Compliance
+### **Forensic Heritage**
+- **Chain of Custody**: Every deployment tracked with immutable audit trail
+- **Evidence Integrity**: Cryptographic verification of all system changes
+- **Compliance Automation**: Real-time scoring against FDA, SOX, GMP standards
+- **Laboratory Workflows**: Purpose-built LIMS with forensic-grade data handling
 
-Zero Trust Architecture: Tailscale mesh networking
-Immutable Infrastructure: GitOps-managed deployments
-Forensic Logging: Chain-of-custody for all system events
-Multi-Factor Authentication: Required for all admin access
-Encrypted Transit: TLS everywhere, zero cleartext communication
+### **Technical Excellence**
+- **Live Infrastructure**: All systems accessible and running 24/7
+- **Hybrid Architecture**: On-premise efficiency with cloud forensic engine
+- **GitOps Deployment**: ArgoCD for declarative infrastructure management
+- **Multi-Environment**: Dev/Staging/Production separation
 
-📁 Repository Structure
+## 🚀 **Technologies Used**
+
+**Infrastructure**: Kubernetes (K3s), Docker, Terraform, AWS EC2  
+**Monitoring**: Prometheus, Grafana, Loki, AlertManager  
+**CI/CD**: Jenkins, ArgoCD, GitHub Actions  
+**Networking**: Tailscale mesh, Cloudflare tunnels  
+**Compliance**: Custom forensic analysis engine
+
+## 🔐 **Security & Compliance**
+
+- **Zero Trust Architecture**: Tailscale mesh networking
+- **Immutable Infrastructure**: GitOps-managed deployments
+- **Forensic Logging**: Chain-of-custody for all system events
+- **Multi-Factor Authentication**: Required for all admin access
+- **Encrypted Transit**: TLS everywhere, zero cleartext communication
+
+## 📁 **Repository Structure**
+
+```
 evidence-manifests/
 ├── terraform/
 │   ├── server1-k3s/         # K3s cluster configuration
@@ -97,26 +102,30 @@ evidence-manifests/
 └── docs/
     ├── compliance/          # Regulatory documentation
     └── architecture/        # System design documents
-🎓 Professional Background
-Jaime Gabriels - Forensic DevOps Engineer
+```
 
-DNA forensic analysis experience
-AWS Solutions Architect Associate
-Terraform Associate Certified
-Kubernetes Administrator (CKA in progress)
-Masters in Business Leadership
-BSc Biotechnology
+## 🎓 **Professional Background**
 
-🌍 Live Demonstrations
+**Jaime Gabriels - Forensic DevOps Engineer**
+- DNA forensic analysis experience
+- AWS Solutions Architect Associate
+- Terraform Associate Certified
+- Kubernetes Administrator (CKA in progress)
+- Masters in Business Leadership
+- BSc Biotechnology
 
-LIMS: https://lims.jagdevops.co.za
-Finance Dashboard: https://finance.jagdevops.co.za
-Pharma Pipeline: https://pharma.jagdevops.co.za
-Monitoring: http://192.168.50.74:3000
-Forensic Engine: http://100.101.99.93:9999
+## 🌍 **Live Demonstrations**
 
-🚀 Getting Started
-bash# Clone repository
+- **LIMS**: https://lims.jagdevops.co.za
+- **Finance Dashboard**: https://finance.jagdevops.co.za  
+- **Pharma Pipeline**: https://pharma.jagdevops.co.za
+- **Monitoring**: http://192.168.50.74:3000
+- **Forensic Engine**: http://100.101.99.93:9999
+
+## 🚀 **Getting Started**
+
+```bash
+# Clone repository
 git clone https://github.com/GABRIELS562/evidence-manifests.git
 cd evidence-manifests
 
@@ -125,6 +134,11 @@ cd terraform && ls -la
 
 # Examine current infrastructure
 terraform plan
+```
 
-"In forensics, contamination means a criminal walks free. In DevOps, it means production goes down. Neither is acceptable."
-Bringing forensic precision to modern cloud infrastructure.
+---
+
+*"In forensics, contamination means a criminal walks free. In DevOps, it means production goes down. Neither is acceptable."*
+
+**Bringing forensic precision to modern cloud infrastructure.**
+```
