@@ -1,5 +1,4 @@
-```markdown
-# evidence-manifests
+markdown# evidence-manifests
 
 **Digital Evidence Pipeline - Infrastructure as Code**
 
@@ -32,7 +31,6 @@ This repository contains the complete Infrastructure as Code (IaC) for a forensi
 ## 🔬 **Live Compliance Monitoring**
 
 Real-time compliance scoring from actual infrastructure monitoring:
-
 ```json
 {
   "current_compliance": {
@@ -45,50 +43,38 @@ Real-time compliance scoring from actual infrastructure monitoring:
   "pharma_violations": 0,
   "audit_trail_integrity": "100%"
 }
-```
+💰 Cost Analysis (ZAR)
+ComponentCurrent (Home Lab)AWS EquivalentAnnual SavingsK3s ClusterR0R30,000R30,000Monitoring StackR0R18,000R18,000Forensic EngineR0R4,800R4,800TotalR0R52,800R52,800
+🎯 Key Differentiators
+Forensic Heritage
 
-## 💰 **Cost Analysis (ZAR)**
+Chain of Custody: Every deployment tracked with immutable audit trail
+Evidence Integrity: Cryptographic verification of all system changes
+Compliance Automation: Real-time scoring against FDA, SOX, GMP standards
+Laboratory Workflows: Purpose-built LIMS with forensic-grade data handling
 
-| Component | Current (Home Lab) | AWS Equivalent | Annual Savings |
-|-----------|-------------------|----------------|----------------|
-| K3s Cluster | R0 | R30,000 | R30,000 |
-| Monitoring Stack | R0 | R18,000 | R18,000 |
-| Forensic Engine | R0 | R4,800 | R4,800 |
-| **Total** | **R0** | **R52,800** | **R52,800** |
+Technical Excellence
 
-## 🎯 **Key Differentiators**
+Live Infrastructure: All systems accessible and running 24/7
+Hybrid Architecture: On-premise efficiency with cloud forensic engine
+GitOps Deployment: ArgoCD for declarative infrastructure management
+Multi-Environment: Dev/Staging/Production separation
 
-### **Forensic Heritage**
-- **Chain of Custody**: Every deployment tracked with immutable audit trail
-- **Evidence Integrity**: Cryptographic verification of all system changes
-- **Compliance Automation**: Real-time scoring against FDA, SOX, GMP standards
-- **Laboratory Workflows**: Purpose-built LIMS with forensic-grade data handling
+🚀 Technologies Used
+Infrastructure: Kubernetes (K3s), Docker, Terraform, AWS EC2
+Monitoring: Prometheus, Grafana, Loki, AlertManager
+CI/CD: Jenkins, ArgoCD, GitHub Actions
+Networking: Tailscale mesh, Cloudflare tunnels
+Compliance: Custom forensic analysis engine
+🔐 Security & Compliance
 
-### **Technical Excellence**
-- **Live Infrastructure**: All systems accessible and running 24/7
-- **Hybrid Architecture**: On-premise efficiency with cloud forensic engine
-- **GitOps Deployment**: ArgoCD for declarative infrastructure management
-- **Multi-Environment**: Dev/Staging/Production separation
+Zero Trust Architecture: Tailscale mesh networking
+Immutable Infrastructure: GitOps-managed deployments
+Forensic Logging: Chain-of-custody for all system events
+Multi-Factor Authentication: Required for all admin access
+Encrypted Transit: TLS everywhere, zero cleartext communication
 
-## 🚀 **Technologies Used**
-
-**Infrastructure**: Kubernetes (K3s), Docker, Terraform, AWS EC2  
-**Monitoring**: Prometheus, Grafana, Loki, AlertManager  
-**CI/CD**: Jenkins, ArgoCD, GitHub Actions  
-**Networking**: Tailscale mesh, Cloudflare tunnels  
-**Compliance**: Custom forensic analysis engine
-
-## 🔐 **Security & Compliance**
-
-- **Zero Trust Architecture**: Tailscale mesh networking
-- **Immutable Infrastructure**: GitOps-managed deployments
-- **Forensic Logging**: Chain-of-custody for all system events
-- **Multi-Factor Authentication**: Required for all admin access
-- **Encrypted Transit**: TLS everywhere, zero cleartext communication
-
-## 📁 **Repository Structure**
-
-```
+📁 Repository Structure
 evidence-manifests/
 ├── terraform/
 │   ├── server1-k3s/         # K3s cluster configuration
@@ -102,30 +88,26 @@ evidence-manifests/
 └── docs/
     ├── compliance/          # Regulatory documentation
     └── architecture/        # System design documents
-```
+🎓 Professional Background
+Jaime Gabriels - Forensic DevOps Engineer
 
-## 🎓 **Professional Background**
+DNA forensic analysis experience
+AWS Solutions Architect Associate
+Terraform Associate Certified
+Kubernetes Administrator (CKA in progress)
+Masters in Business Leadership
+BSc Biotechnology
 
-**Jaime Gabriels - Forensic DevOps Engineer**
-- DNA forensic analysis experience
-- AWS Solutions Architect Associate
-- Terraform Associate Certified
-- Kubernetes Administrator (CKA in progress)
-- Masters in Business Leadership
-- BSc Biotechnology
+🌍 Live Demonstrations
 
-## 🌍 **Live Demonstrations**
+LIMS: https://lims.jagdevops.co.za
+Finance Dashboard: https://finance.jagdevops.co.za
+Pharma Pipeline: https://pharma.jagdevops.co.za
+Monitoring: http://192.168.50.74:3000
+Forensic Engine: http://100.101.99.93:9999
 
-- **LIMS**: https://lims.jagdevops.co.za
-- **Finance Dashboard**: https://finance.jagdevops.co.za  
-- **Pharma Pipeline**: https://pharma.jagdevops.co.za
-- **Monitoring**: http://192.168.50.74:3000
-- **Forensic Engine**: http://100.101.99.93:9999
-
-## 🚀 **Getting Started**
-
-```bash
-# Clone repository
+🚀 Getting Started
+bash# Clone repository
 git clone https://github.com/GABRIELS562/evidence-manifests.git
 cd evidence-manifests
 
@@ -134,11 +116,5 @@ cd terraform && ls -la
 
 # Examine current infrastructure
 terraform plan
-```
 
----
-
-*"In forensics, contamination means a criminal walks free. In DevOps, it means production goes down. Neither is acceptable."*
-
-**Bringing forensic precision to modern cloud infrastructure.**
-```
+"In forensics, contamination means a criminal walks free. In DevOps, it means production goes down. Neither is acceptable."
